@@ -77,6 +77,7 @@ int main(int argc, char *const argv[]) {
         realtime[i] = (after.tv_sec-before.tv_sec) * 1000000000L +
                       (long) (after.tv_nsec-before.tv_nsec);
         printf("%ld ", (realtime[i]/ns_to_ms));
+        fflush(stdout);
 
         memory[i] = usage.ru_maxrss;
     }
