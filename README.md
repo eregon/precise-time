@@ -57,3 +57,7 @@ Install the executable under the given path:
 ```
 make install DEST=/my/prefix/bin
 ```
+
+## Alternatives
+
+* [hyperfine](https://github.com/sharkdp/hyperfine) is a similar but much more fancy command-line benchmarking tool.
